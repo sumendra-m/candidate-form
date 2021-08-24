@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="title">Candidate Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+
+            <!-- 1.2 name and dob -->
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Date of Birth</span>
+              <input type="date" placeholder="" required>
+            </div>
+            <!-- <div class="input-box">
+              <span class="details">Age</span>
+              <input type="text" placeholder="" readonly>
+            </div> -->
+         
+            <!-- 3. Education Details  -->
+            <div class="input-box">
+              <span class="details">Education Details</span>   
+            </div>
+            <div class="container overflow">
+              <table>
+                  <thead >
+                      <tr>
+                          <th id="top">Name and Address of Institution*</th>
+                          <th id="top">University*</th>
+                          <th id="top">Degree Received*</th>
+                          <th id="top">Major or Area of Specialization*</th>
+                          <th id="top">Passed Year (AD) </th>
+                          <th id="top">Percentage %</th>
+                          <th id="top">CGPA Obtained</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th><input type="text" id="scrollinput" ></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+  
+                      </tr>
+                      <tr>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinput"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+                          <th><input type="text" id="scrollinputsmall"></th>
+  
+                      </tr>
+  
+                     
+                  </tbody>
+              </table>
+            </div>
+  
+            <!-- 6. Previous Organization -->
+            <div class="input-box">
+            <span class="details">Previous Organization</span>
+            </div>
+            <div class="container overflow">
+            <table>
+                <thead >
+                    <tr>
+                        <th id="top">Name of Organization*</th>
+                        <th id="top">Designation</th>
+                        <th id="top">From Date</th>
+                        <th id="top">To Date</th>
+                        <th id="top">Salary per Month</th>
+                        <th id="top">Reason For Leaving</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><input type="text" id="scrollinput"></th>
+                        <th><input type="text" id="scrollinput"></th>
+                        <th><input type="date" id="scrollinput"></th>
+                        <th><input type="date" id="scrollinput"></th>
+                        <th><input type="text" id="scrollinputsmall"></th>
+                        <th><input type="text" id="scrollinput"></th>
+     
+  
+                    </tr>
+                    <tr>
+                        <th><input type="text" id="scrollinput"></th>
+                        <th><input type="text" id="scrollinput"></th>
+                        <th><input type="date" id="scrollinput"></th>
+                        <th><input type="date" id="scrollinput"></th>
+                        <th><input type="text" id="scrollinputsmall"></th>
+                        <th><input type="text" id="scrollinput"></th>
+  
+                    </tr>
+  
+                   
+                </tbody>
+            </table>
+            </div>
+
+            <!-- 9. Preferred Role -->
+            <div class="input-box four">
+              <span class="details">Preferred Role</span>
+              <select name="role" id="dropdown">
+                <option value="">Assistant</option>
+                <option value="">Jr. Assistant</option>
+                <option value="">Senior Assistant</option>
+                <option value="">Head Assistant</option>
+
+              </select>
+            </div>
+
+
+            <!-- 10. Expected Level -->
+              <div class="input-box four">
+                <span class="details">Expected Level</span>
+                <select name="role" id="dropdown">
+                  <option value="">S1</option>
+                  <option value="">S2</option>
+                  <option value="">S3</option>
+                  <option value="">S4</option>
+    
+                </select>
+              </div>
+
+            <!-- 11. Expected Salary  -->
+            <div class="input-box">
+              <span class="details">Expected Salary</span>
+              <input type="text" placeholder="NPR" required>
+            </div>
+
+
+            <!-- 12. Current Salary -->
+            <div class="input-box">
+              <span class="details">Current Salary</span>
+              <input type="text" placeholder="NPR" required>
+            </div>
+         
+        </div>
+
+
+         <!-- 13. Civil Bank Related Details  -->
+
+        <div class="input-box">
+
+          <span class="details">Civil Bank Related Details</span>
+          <textarea name="" id="textarea" cols="170" rows="10"></textarea>
+        </div>
+  
+
+
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+        
+        </form>
+      </div>
+    </div>
+  
+  </body>
+  </html>
+  
